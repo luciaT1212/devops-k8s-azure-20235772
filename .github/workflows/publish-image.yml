@@ -37,6 +37,6 @@ jobs:
           file: ./app/Dockerfile
           # PRACTICA: cambiar false por true para publicar la imagen.
           push: true
-          tags: ghcr.io/${{ github.repository }}:sha-${{ github.sha }}
+          tags: ghcr.io/luciat1212/devops-k8s-azure-20235772:sha-${{ github.sha }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
